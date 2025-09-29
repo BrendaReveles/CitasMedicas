@@ -1,0 +1,19 @@
+# 🏥 Gestor de Citas Médicas
+
+Sistema de administración de citas para un consultorio clínico, desarrollado en **Java 11**.  
+El sistema permite registrar doctores, pacientes y citas, además de tener control de acceso mediante administradores.
+
+---
+
+## 🚀 Instalación y configuración
+
+1. **Instalar Java JDK 11**  
+   Descarga desde [Adoptium](https://adoptium.net/) o [Oracle](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).  
+   Verifica:
+   ```bash
+   java -version
+   
+## 👩‍💻 Créditos
+
+Desarrollado por Brenda Reveles
+Proyecto académico de programación en Java.
