@@ -59,7 +59,7 @@ public class Main {
                             System.out.print("Cédula: ");       String c = sc.nextLine();
                             System.out.print("Especialidad: "); String e = sc.nextLine();
                             Doctor d = new Doctor(0, n, c, e);
-                            doctorRepo.add(d);
+                            DoctorRepo.add(d);
                             System.out.println("Doctor creado: " + d);
                         }
                         case 2 -> {
@@ -79,7 +79,7 @@ public class Main {
                             Cita c = citaService.crearCita(dId, pId, LocalDateTime.of(f, h), notas);
                             System.out.println("Cita creada: " + c);
                         }
-                        case 4 -> doctorRepo.all().forEach(System.out::println);
+                        case 4 -> DoctorRepo.all().forEach(System.out::println);
                         case 5 -> pacienteRepo.all().forEach(System.out::println);
                         case 6 -> citaRepo.all().forEach(System.out::println);
                         case 7 -> {
