@@ -55,3 +55,6 @@ public class PacienteRepo extends CsvRepo {
     public Paciente get(long id) { return data.get(id); }
     public Collection<Paciente> all(){ return data.values(); }
 }
+
+
+// listado de pacientes
