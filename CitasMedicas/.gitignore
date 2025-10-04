@@ -1,0 +1,34 @@
+# === Build outputs (Java) ===
+/target/
+/build/
+/out/
+/bin/
+
+# === IDE / Proyectos ===
+/.idea/
+/.vscode/
+/*.iml
+.classpath
+.project
+.settings/
+
+# === SO / varios ===
+.DS_Store
+Thumbs.db
+
+# === Logs / JARs ===
+*.log
+/*.jar
+
+# === Wrappers ===
+/.gradle/
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# === Datos locales de la app ===
+/db/*
+!/db/.gitignore
+
+# === Backups ===
+*.zip
