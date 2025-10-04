@@ -1,5 +1,3 @@
-package com.clinica.domain;
-
 import java.time.LocalDateTime;
 
 public class Cita {

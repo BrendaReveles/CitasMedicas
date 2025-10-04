@@ -1,5 +1,3 @@
-package com.clinica.domain;
-
 public class Paciente {
     private long id;
     private String nombre;

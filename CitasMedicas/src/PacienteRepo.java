@@ -1,10 +1,13 @@
-package com.clinica.repo;
-
-import com.clinica.domain.Paciente;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
+
+
 
 public class PacienteRepo extends CsvRepo {
     private final Map<Long, Paciente> data = new LinkedHashMap<>();

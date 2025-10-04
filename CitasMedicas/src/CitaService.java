@@ -1,13 +1,9 @@
-package com.clinica.service;
-
-import com.clinica.domain.*;
-import com.clinica.repo.CitaRepo;
-import com.clinica.repo.DoctorRepo;
-import com.clinica.repo.PacienteRepo;
 
 import java.io.IOException;
 import java.time.Duration;
 import java.time.LocalDateTime;
+
+
 
 public class CitaService {
     private final CitaRepo citas;

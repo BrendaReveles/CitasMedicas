@@ -1,7 +1,7 @@
-package com.clinica.repo;
-
 import java.io.IOException;
 import java.nio.file.Path;
+
+
 
 public final class DbBootstrap {
     private DbBootstrap() {}

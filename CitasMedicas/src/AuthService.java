@@ -1,10 +1,3 @@
-package com.clinica.auth;
-
-import com.clinica.domain.Rol;
-import com.clinica.domain.Usuario;
-import com.clinica.repo.UsuarioRepo;
-import com.clinica.util.Password;
-
 public class AuthService {
     private final UsuarioRepo usuarios;
 
